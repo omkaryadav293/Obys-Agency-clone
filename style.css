@@ -1,18 +1,18 @@
 @font-face {
     font-family: "plain light";
-    src: url(./fonts/plain-regular-webfont.ttf);
+    src: url(./fonts/plain-regular-webfont.woff2);
 }
 @font-face {
     font-family: "plain light";
-    src: url(./fonts/plain-light-webfont.ttf);
+    src: url(./fonts/plain-light-webfont.woff2);
 }
 @font-face {
     font-family: "silk serif";
-    src: url(./fonts/silkserif-regularitalic-webfont.ttf);
+    src: url(./fonts/silkserif-regularitalic-webfont.woff2);
 }
 @font-face {
-    font-family: "plain light";
-    src: url(./fonts/silkserif-lightitalic-webfont.ttf);
+    font-family: "silk serif";
+    src: url(./fonts/silkserif-lightitalic-webfont.woff2);
 }
 
 * {
@@ -338,6 +338,7 @@ body {
         -ms-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
     z-index: -99999;
+    
     opacity: 0;
 }
 
